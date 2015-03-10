@@ -61,6 +61,8 @@ int main(void)
                 }
             }
         }
+        //Show layer
+        mvprintw(0,0,"Layer: %d", level);
 
         if ((input == 119) and level < map_size_z-1)
         {
